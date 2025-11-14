@@ -319,7 +319,7 @@ h3:hover {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 500px) {
 
   h1 {
     font-size: 32px;
@@ -370,7 +370,7 @@ h3:hover {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
   h1 {
     font-size: 30px;
