@@ -403,7 +403,7 @@ h3:hover {
   }
 
   .carousel-item {
-    height: 400px;
+    height: 250px;
   }
 
   .paicont {
@@ -425,56 +425,54 @@ h3:hover {
   }
 }
 
-/* ================================
-      CELULARES GRANDES (IPHONE 14 PRO MAX / 15 PRO MAX)
-   ================================= */
-@media (max-width: 430px) {
-  h1 { font-size: 36px; }
-  .texto1 { width: 90%; font-size: 18px; padding: 18px; }
-  .carousel-item { height: 450px; }
-  main { height: auto; }
-}
+@media (max-width: 470px) {
+  h1 {
+    font-size: 30px;
+    margin-top: 8px;
+  }
 
-/* ================================
-      IPHONES MÉDIOS (14, 13, 12, 11, XR)
-      largura típica: 390px / 414px
-   ================================= */
-@media (max-width: 414px) {
-  h1 { font-size: 34px; }
-  .titulo { margin-bottom: 10px; }
-  .pai { flex-direction: column; height: auto; }
-  .texto1 { width: 90%; font-size: 17px; }
-  #carouselExampleIndicators { max-width: 95%; }
-  .carousel-item { height: 430px; }
-  .card1 { opacity: 1; width: 90%; }
-}
+  .titulo {
+    height: auto;
+    margin-bottom: 8px;
+  }
 
-@media (max-width: 390px) {
-  h1 { font-size: 32px; }
-  .texto1 { font-size: 16px; }
-  .carousel-item { height: 400px; }
-}
+  .pai {
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
 
-/* ================================
-      MOTOROLA / ANDROID PADRÃO
-      largura típica: 360px
-      Moto E22, E32, G22, G32, G52, G9, G10, etc.
-   ================================= */
-@media (max-width: 360px) {
-  h1 { font-size: 28px; }
-  .texto1 { width: 90%; font-size: 15px; padding: 12px; }
-  .carousel-item { height: 350px; }
-  .card1 { width: 90%; padding: 12px; }
-  main { height: auto; }
-}
+  .texto1 {
+    width: 90%;
+    height: auto;
+    padding: 12px;
+    font-size: 15px;
+  }
 
-/* ================================
-      CELULARES MENORES (IPHONE SE, ANDROID PEQUENO)
-      320px
-   ================================= */
-@media (max-width: 320px) {
-  h1 { font-size: 24px; }
-  .texto1 { font-size: 14px; padding: 10px; }
-  .carousel-item { height: 300px; }
-  .musica { padding: 8px 14px; }
+  #carouselExampleIndicators {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .carousel-item {
+    height: 500px;
+  }
+
+  .paicont {
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+  }
+
+  .info {
+    width: 80%;
+  }
+
+  .card1 {
+    width: 90%;
+    height: auto;
+    padding: 12px;
+    opacity: 1;
+  }
 }
